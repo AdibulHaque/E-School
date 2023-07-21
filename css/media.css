@@ -1,0 +1,260 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*  header start*/
+.logo {
+    width: 160px;
+}    
+.menu ul li a{
+    padding: 0px 20px 5px !important;
+}
+/*banner start  */
+.b_text{
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+.b_h1 {   
+    font-size: 30px;    
+    line-height: 40px;   
+}
+.b_p {
+    line-height: 28px;
+}
+.btn_banner{
+  margin: 15px auto 0;
+  }
+.b_img {
+    padding: 0;
+    margin-bottom: 20px;
+}
+/*feature start*/
+.feature {
+    padding: 15px 0px 60px;
+}
+/*course start*/
+.course {
+    padding-bottom: 60px;
+}
+.c_item {
+    margin: 30px 0 0;
+    padding: 15px 10px 20px;
+}
+.c_h1 {
+    font-size: 25px;
+}
+.c_h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.btn_item {
+    margin: 20px 0 20px;
+}
+.c_left ul li span,
+.c_right ul li span
+{
+    margin-left: -5px;
+    font-weight: 400;
+    line-height: 15px;
+}
+/*testimony start*/
+.testimony{
+    padding-bottom: 60px;
+}
+.t_footer{
+    margin-top: 15px;
+}
+.t_img {
+    text-align: center;
+    margin: 25px 0px;
+}
+.t_p{
+    text-align: center;
+}
+/*footer start*/
+footer{
+    padding: 40px 0 60px;
+    text-align: center;
+}
+.footer_p {
+    padding: 0 0px 20px 0px;
+    line-height: 30px;
+    margin-bottom: ;
+}
+
+.t_footer{
+    margin-top: 20px;
+}
+
+
+
+
+  }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*  header start*/
+.menu ul li a{
+    padding: 0px 20px 5px !important;
+}
+/*banner start  */
+.b_text{
+  padding: 0px 50px 0px 50px;
+  text-align: center;
+}
+.b_h1 {   
+    font-size: 40px;    
+    line-height: 45px;   
+}
+.b_p {
+    line-height: 28px;
+}
+.btn_banner{
+  margin: 15px auto 0;
+  }
+.b_img {
+    padding: 0 80px;
+    margin-bottom: 20px;
+}
+/*feature start*/
+.feature {
+    padding: 15px 0px 60px;
+}
+.f_single{
+    padding: 55px 30px 50px;
+}
+/*course start*/
+.course {
+    padding-bottom: 60px;
+}
+.c_item {
+    margin: 30px 60px 0;
+
+}
+.c_h1 {
+    font-size: 25px;
+}
+/*testimony start*/
+.testimony{
+    padding-bottom: 60px;
+}
+.t_footer{
+    margin-top: 30px;
+}
+/*footer start*/
+footer{
+    padding: 40px 0 60px;
+    text-align: center;
+}
+.footer_p {
+    padding: 0 80px 20px 80px;
+    line-height: 30px;
+    margin-bottom: ;
+}
+
+.t_footer{
+    margin-top: 30px;
+}
+
+
+
+
+  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*  header start*/
+.menu ul li a{
+    padding: 0px 20px 5px !important;
+}
+/*banner start  */
+.b_text{
+  padding: 0px 100px 0px 100px;
+  text-align: center;
+}
+.btn_banner{
+  margin: 15px auto 0;
+  }
+.b_img {
+    padding: 0 120px;
+    margin-bottom: 30px;
+} 
+/*feature start*/
+.feature{
+    padding: 15px 0 80px;
+}
+/*course start*/
+.course {
+    padding-bottom: 80px;
+}
+.c_item {
+    margin: 40px 120px 0;
+}
+/*tesimony start*/
+.testimony{
+    padding-bottom: 80px;
+}
+/*footer start*/
+footer{
+    padding: 40px 0 60px;
+    text-align: center;
+}
+.footer_p {
+    padding: 0 80px 20px 80px;
+    line-height: 30px;
+    margin-bottom: ;
+}
+
+.t_footer{
+    margin-top: 30px;
+}
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*  banner start*/
+.b_text {
+    padding: 0 50px 0 0;
+}
+/*feature start*/
+.f_single{
+    padding: 55px 20px 50px;
+}
+/*course start*/
+.c_item {
+    padding: 25px 15px 25px;
+}
+.c_left ul li span,
+.c_right ul li span
+{
+    margin-left: -5px;
+    font-size: 15px;
+
+}
+/*tesimony start*/
+.testimony{
+    padding-bottom: 80px;
+}
+.t_footer{
+    margin-top: 40px;
+}
+
+ }
+
+
+/* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*  banner start*/
+.b_text {
+    padding: 0 150px 0 0;
+}
+/*feature start*/
+.f_single{
+    padding: 55px 45px 50px;
+}
+  }
+
+/* Extra Extra  large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+  }
